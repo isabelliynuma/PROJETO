@@ -1,0 +1,101 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', seri;
+    color: purple
+}
+h1{ 
+    background-color: rgb(3, 3, 2);
+    text-align: center;
+    color: rgb(130, 16, 171);
+}
+h2{
+    text-align: center;
+    color: rgb(170, 26, 222);
+
+}
+h3{
+    text-align: justify;
+    color: rgb(170, 26, 222);
+    
+
+}
+h4{
+    text-align: center;
+    color: rgb(243, 243, 248);
+    padding: 50px 50px 50px 50px;
+    font-size:xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+
+}
+figure{ 
+    text-align: center;
+    background-color: black;
+    border: 8px solid 
+}
+p{
+    text-align: justify;
+    padding: 10px 20px 20px 50px;
+    color: rgb(130, 25, 169);
+    font-size: larger;
+}
+p1{ text-align: justify;
+    padding: 50px 50px 50px 50px;
+    color: rgb(253, 253, 253);
+    font-size: medium;
+}
+header{
+    background-color: rgb(13, 13, 13);
+    color:rgb(170, 26, 222);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex
+}
+nav ul li{
+    margin-right: 15px;
+}
+nav ul li a {
+    color: azure;
+    text-decoration: underline;
+}
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    curson: pointer;
+}
+.menu-icon span {
+    height: 4px;
+    width: 30;
+    background-color: blueviolet;
+    margin-bottom: 5px;
+}
+ul li{
+    text-align: justify;
+    color: rgb(130, 25, 169);
+}
+nav li a:hover {
+    background-color: aliceblue;
+    color:rgb(3, 3, 2)
+}
+nav li a {
+    text-decoration: none;
+    color:rgb(130, 16, 171);
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0,3s;
+}
+img {
+    border-radius: 10px;
+    transform: trasform 0,3;
+}
+img:hover {
+    transform: scale(1.25);
+}
